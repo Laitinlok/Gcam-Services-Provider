@@ -9,7 +9,7 @@ android {
     defaultConfig {
         minSdk = 19
         targetSdk = 35
-        versionCode = 100000010
+        versionCode = 301776834
         versionName = "1.6.1"
     }
 
