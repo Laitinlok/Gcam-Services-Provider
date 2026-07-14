@@ -35,7 +35,7 @@ android {
             dimension = "default"
             applicationId = "com.google.android.googlequicksearchbox"
             versionCode = 301776834
-            versionName = "17.40.19"
+            versionName = "17.40.19.ve.arm64"
         }
     }
 
