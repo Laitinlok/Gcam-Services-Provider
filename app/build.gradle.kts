@@ -34,6 +34,8 @@ android {
         create("gapp") {
             dimension = "default"
             applicationId = "com.google.android.googlequicksearchbox"
+            versionCode = 100000010
+            versionName = "1.6.1"
         }
     }
 
