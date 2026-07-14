@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Flavor-specific manifest overlay for the 'gapp' flavor.
+    Spoofs com.google.android.googlequicksearchbox (Google Search / Google App).
+    Inspired by: https://github.com/SolidEva/Gapp-Package-Spoof
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        android:forceQueryable="true" ensures this package is always visible
+        to other apps querying the package manager, even on Android 11+
+        where package visibility is restricted.
+    -->
+    <application
+        android:forceQueryable="true"
+        tools:replace="android:forceQueryable" />
+
+</manifest>

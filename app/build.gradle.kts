@@ -27,6 +27,14 @@ android {
             dimension = "default"
             applicationId = "com.google.android.apps.photos"
         }
+        // Spoofs the Google Search / Google Quick Search Box app package.
+        // This enables GCam to access authorities and services that require
+        // com.google.android.googlequicksearchbox to be installed.
+        // Inspired by: https://github.com/SolidEva/Gapp-Package-Spoof
+        create("gapp") {
+            dimension = "default"
+            applicationId = "com.google.android.googlequicksearchbox"
+        }
     }
 
     // No benefit outside of Google Play, disabled for IzzyOnDroid
